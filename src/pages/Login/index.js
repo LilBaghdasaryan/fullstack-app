@@ -6,7 +6,7 @@ const Login = () => {
     const dispatch = useDispatch();
 
     const handleClick = () => {
-        dispatch(userLogin({isAuth: !isAuth}));
+        dispatch(userLogin({isAuth: !isAuth}))
     };
 
     return <div>
