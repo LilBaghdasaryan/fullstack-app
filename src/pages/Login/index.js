@@ -14,4 +14,5 @@ const Login = () => {
         {isAuth && <button onClick={handleClick}>Log out</button>}
     </div>
 }
+
 export default Login
